@@ -15,6 +15,7 @@ if (!isset($_SESSION["login"])) {
 echo "Bienvenue, " . $_SESSION["login"] . "!";
 
 // Ou afficher du contenu spécifique aux utilisateurs authentifiés
+
 ?>
 
 
@@ -60,7 +61,12 @@ echo "Bienvenue, " . $_SESSION["login"] . "!";
     <div class="dashboard-container">
     <h1>Bienvenue sur la page à accès limité</h1>
     <p>Ceci est une page réservée aux utilisateurs authentifiés.</p>
-    <p>Vous pouvez ajouter ici du contenu spécifique aux utilisateurs authentifiés.</p>
+    <p>  <ul>
+        <li><a href="ajout_produit.php">Ajouter un Produit</a></li>
+        <li><a href="transaction.php">transaction</a></li>
+        <li><a href="liste_transaction.php">liste _transaction</a></li>
+        <li><a href="verifier_stock.php">Vérifier le Stock</a></li>
+    </ul.</p>
     <p><a href="deconnexion.php">Se déconnecter</a></p>
     <div>
 </body>

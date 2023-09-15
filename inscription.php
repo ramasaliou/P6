@@ -77,12 +77,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 .login-container {
-    max-width: 400px;
+    max-width: 300px;
     margin: 100px auto;
     background-color: #fff;
     padding: 20px 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 9px;
 }
 
 h2 {
@@ -97,7 +97,7 @@ label {
 }
 
 input[type="text"], input[type="password"], input[type="email"] {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -114,6 +114,7 @@ input[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    
 }
 
 input[type="submit"]:hover {

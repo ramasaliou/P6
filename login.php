@@ -62,10 +62,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 .login-container {
-    max-width: 400px;
-    margin: 100px auto;
+    /* max-width: 100px; */
+    margin: 50px auto;
     background-color: #fff;
-    padding: 20px 30px;
+    padding: 20px 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -82,7 +82,7 @@ label {
 }
 
 input[type="text"], input[type="password"], input[type="email"] {
-    width: 100%;
+    width: 40%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -128,7 +128,9 @@ p {
         <input type="password" id="mot_de_passe" name="mot_de_passe" required><br><br>
 
         <input type="submit" value="Se connecter">
+
         <div>
+        <boutton><a href="inscription.php">s' inscrire</a></button>
     </form>
 </body>
 </html>
